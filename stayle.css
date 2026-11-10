@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#photo{
+    width: 700px;
+    height: 1000px;
+
+}
+
+@media(max-width:600px){
+    #photo{
+        width: 100%;
+        height: auto;
+    }
+}
